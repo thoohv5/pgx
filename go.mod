@@ -13,5 +13,6 @@ require (
 
 require (
 	github.com/kr/pretty v0.3.0 // indirect
+	github.com/thoohv5/netip v0.0.0-20230203033534-7c354a901305 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
