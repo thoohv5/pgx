@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgconn"
+	"github.com/thoohv5/pgx/internal/pgio"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 // CopyFromRows returns a CopyFromSource interface over the provided rows slice

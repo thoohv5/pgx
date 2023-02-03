@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgxtest"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgconn"
+	"github.com/thoohv5/pgx/pgxtest"
 )
 
 var defaultConnTestRunner pgxtest.ConnTestRunner

@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgxtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgconn"
+	"github.com/thoohv5/pgx/pgxtest"
 )
 
 func TestConnSendBatch(t *testing.T) {

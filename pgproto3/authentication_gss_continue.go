@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
+	"github.com/thoohv5/pgx/internal/pgio"
 )
 
 type AuthenticationGSSContinue struct {

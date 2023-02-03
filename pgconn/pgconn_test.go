@@ -17,14 +17,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/internal/pgmock"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgproto3"
-	"github.com/jackc/pgx/v5/pgtype"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/internal/pgio"
+	"github.com/thoohv5/pgx/internal/pgmock"
+	"github.com/thoohv5/pgx/pgconn"
+	"github.com/thoohv5/pgx/pgproto3"
+	"github.com/thoohv5/pgx/pgtype"
 )
 
 func TestConnect(t *testing.T) {

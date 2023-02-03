@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/jackc/pgx/v5/pgconn"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 var stmtCounter int64

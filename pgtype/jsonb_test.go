@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5/pgxtest"
+	"github.com/thoohv5/pgx/pgxtest"
 )
 
 func TestJSONBTranscode(t *testing.T) {

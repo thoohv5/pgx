@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jackc/pgx/v5/internal/iobufpool"
+	"github.com/thoohv5/pgx/internal/iobufpool"
 )
 
 var errClosed = errors.New("closed")

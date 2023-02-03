@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/thoohv5/pgx/pgxpool"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 // Conn.Release is an asynchronous process that returns immediately. There is no signal when the actual work is

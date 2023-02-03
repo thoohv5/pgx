@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 func BenchmarkConnect(b *testing.B) {

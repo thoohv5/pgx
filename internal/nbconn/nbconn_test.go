@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5/internal/nbconn"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx/internal/nbconn"
 )
 
 // Test keys generated with:

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
 )
 
 func TestNamedArgsRewriteQuery(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgproto3"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx/internal/pgio"
+	"github.com/thoohv5/pgx/pgproto3"
 )
 
 func FuzzFrontend(f *testing.F) {

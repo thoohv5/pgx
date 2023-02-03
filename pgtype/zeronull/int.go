@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/thoohv5/pgx/pgtype"
 )
 
 type Int2 int16

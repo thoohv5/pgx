@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/jackc/pgx/v5.svg)](https://pkg.go.dev/github.com/jackc/pgx/v5)
+[![Go Reference](https://pkg.go.dev/badge/github.com/thoohv5/pgx.svg)](https://pkg.go.dev/github.com/thoohv5/pgx)
 ![Build Status](https://github.com/jackc/pgx/actions/workflows/ci.yml/badge.svg)
 
 # pgx - PostgreSQL Driver and Toolkit
@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jackc/pgx/v5"
+	"github.com/thoohv5/pgx"
 )
 
 func main() {

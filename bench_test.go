@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/internal/nbconn"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/internal/nbconn"
+	"github.com/thoohv5/pgx/pgconn"
+	"github.com/thoohv5/pgx/pgtype"
 )
 
 func BenchmarkConnectClose(b *testing.B) {

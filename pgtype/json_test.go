@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"testing"
 
-	pgx "github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgxtest"
 	"github.com/stretchr/testify/require"
+	pgx "github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgxtest"
 )
 
 func isExpectedEqMap(a any) func(any) bool {

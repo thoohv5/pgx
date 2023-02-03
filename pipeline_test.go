@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 func TestPipelineWithoutPreparedOrDescribedStatements(t *testing.T) {

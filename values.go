@@ -3,9 +3,9 @@ package pgx
 import (
 	"errors"
 
-	"github.com/jackc/pgx/v5/internal/anynil"
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgtype"
+	"github.com/thoohv5/pgx/internal/anynil"
+	"github.com/thoohv5/pgx/internal/pgio"
+	"github.com/thoohv5/pgx/pgtype"
 )
 
 // PostgreSQL format codes

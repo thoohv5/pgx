@@ -3,7 +3,7 @@ package stmtcache
 import (
 	"math"
 
-	"github.com/jackc/pgx/v5/pgconn"
+	"github.com/thoohv5/pgx/pgconn"
 )
 
 // UnlimitedCache implements Cache with no capacity limit.

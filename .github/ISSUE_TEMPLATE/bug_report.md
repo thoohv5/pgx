@@ -23,7 +23,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jackc/pgx/v5"
+	"github.com/thoohv5/pgx"
 )
 
 func main() {

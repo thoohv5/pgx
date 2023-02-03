@@ -9,7 +9,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/jackc/pgx/v5"
+	"github.com/thoohv5/pgx"
 )
 
 // LogLevel represents the pgx logging level. See LogLevel* constants for

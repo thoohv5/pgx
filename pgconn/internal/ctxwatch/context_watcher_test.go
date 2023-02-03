@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5/pgconn/internal/ctxwatch"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx/pgconn/internal/ctxwatch"
 )
 
 func TestContextWatcherContextCancelled(t *testing.T) {

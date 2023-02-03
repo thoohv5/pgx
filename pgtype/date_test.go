@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/pgxtest"
 	"github.com/stretchr/testify/assert"
+	"github.com/thoohv5/pgx/pgtype"
+	"github.com/thoohv5/pgx/pgxtest"
 )
 
 func isExpectedEqTime(a any) func(any) bool {

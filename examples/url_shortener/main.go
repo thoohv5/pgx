@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgxpool"
 )
 
 var db *pgxpool.Pool

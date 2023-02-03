@@ -3,7 +3,7 @@ package pgproto3
 import (
 	"encoding/binary"
 
-	"github.com/jackc/pgx/v5/internal/pgio"
+	"github.com/thoohv5/pgx/internal/pgio"
 )
 
 type FunctionCall struct {

@@ -19,7 +19,7 @@ import (
 
 	"github.com/jackc/pgpassfile"
 	"github.com/jackc/pgservicefile"
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/thoohv5/pgx/pgproto3"
 )
 
 type AfterConnectFunc func(ctx context.Context, pgconn *PgConn) error
@@ -719,8 +719,8 @@ func configTLS(settings map[string]string, thisHost string, parseConfigOptions P
 			if sslpassword != "" {
 				decryptedKey, decryptedError = x509.DecryptPEMBlock(block, []byte(sslpassword))
 			}
-			//if sslpassword not provided or has decryption error when use it
-			//try to find sslpassword with callback function
+			// if sslpassword not provided or has decryption error when use it
+			// try to find sslpassword with callback function
 			if sslpassword == "" || decryptedError != nil {
 				if parseConfigOptions.GetSSLPassword != nil {
 					sslpassword = parseConfigOptions.GetSSLPassword(context.Background())

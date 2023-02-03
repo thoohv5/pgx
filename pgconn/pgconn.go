@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jackc/pgx/v5/internal/iobufpool"
-	"github.com/jackc/pgx/v5/internal/nbconn"
-	"github.com/jackc/pgx/v5/internal/pgio"
-	"github.com/jackc/pgx/v5/pgconn/internal/ctxwatch"
-	"github.com/jackc/pgx/v5/pgproto3"
+	"github.com/thoohv5/pgx/internal/iobufpool"
+	"github.com/thoohv5/pgx/internal/nbconn"
+	"github.com/thoohv5/pgx/internal/pgio"
+	"github.com/thoohv5/pgx/pgconn/internal/ctxwatch"
+	"github.com/thoohv5/pgx/pgproto3"
 )
 
 const (
@@ -1850,7 +1850,7 @@ func (p *Pipeline) Sync() error {
 // GetResults gets the next results. If results are present, results may be a *ResultReader, *StatementDescription, or
 // *PipelineSync. If an ErrorResponse is received from the server, results will be nil and err will be a *PgError. If no
 // results are available, results and err will both be nil.
-func (p *Pipeline) GetResults() (results any, err error) {
+func (p *Pipeline) GetResults() (results interface{}, err error) {
 	if p.expectedReadyForQueryCount == 0 {
 		return nil, nil
 	}

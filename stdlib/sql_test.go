@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/jackc/pgx/v5/pgtype"
-	"github.com/jackc/pgx/v5/stdlib"
-	"github.com/jackc/pgx/v5/tracelog"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgconn"
+	"github.com/thoohv5/pgx/pgtype"
+	"github.com/thoohv5/pgx/stdlib"
+	"github.com/thoohv5/pgx/tracelog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

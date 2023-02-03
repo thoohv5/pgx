@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jackc/pgx/v5"
-	"github.com/jackc/pgx/v5/pgxtest"
-	"github.com/jackc/pgx/v5/tracelog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thoohv5/pgx"
+	"github.com/thoohv5/pgx/pgxtest"
+	"github.com/thoohv5/pgx/tracelog"
 )
 
 var defaultConnTestRunner pgxtest.ConnTestRunner
